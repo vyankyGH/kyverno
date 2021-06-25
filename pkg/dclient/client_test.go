@@ -12,10 +12,10 @@ import (
 
 // GetResource
 // ListResource
-// CreateResource
+// CreateResourcexc
 // getGroupVersionMapper (valid and invalid resources)
 
-//NewMockClient creates a mock client
+//NewMockClient creates a mock clientxcv
 // - dynamic client
 // - kubernetes client
 // - objects to initialize the client

@@ -18,8 +18,8 @@ import (
 
 // Policy Reporting Modes
 const (
-	Enforce = "enforce" // blocks the request on failure
-	Audit   = "audit"   // dont block the request on failure, but report failiures as policy violations
+	Enforce = "enforce" // blocks the request on failure 23
+	Audit   = "audit"   // dont block the request on failure, but report failiures as policy violations 23
 )
 
 // Policy Reporting Types
@@ -44,7 +44,7 @@ func GetNamespaceSelectorsFromGenericInformer(kind, namespaceOfResource string, 
 	return namespaceLabels
 }
 
-// GetNamespaceSelectorsFromNamespaceLister - extract the namespacelabels when namespace lister is passed
+// GetNamespaceSelectorsFromNamespaceLister - xcextract the namespacelabels when namespace lister is passed
 func GetNamespaceSelectorsFromNamespaceLister(kind, namespaceOfResource string, nsLister listerv1.NamespaceLister, logger logr.Logger) map[string]string {
 	namespaceLabels := make(map[string]string)
 	if kind != "Namespace" {
