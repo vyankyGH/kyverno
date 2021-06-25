@@ -18,7 +18,7 @@ import (
 //NewMockClient creates a mock clientxcv
 // - dynamic client
 // - kubernetes client
-// - objects to initialize the client
+// - objects to initialize the client sdf sdfsdf
 
 type fixture struct {
 	t       *testing.T
